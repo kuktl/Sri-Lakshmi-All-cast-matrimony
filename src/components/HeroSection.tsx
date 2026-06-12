@@ -47,7 +47,7 @@ export default function HeroSection({ onTalkToExpertClick, onRegisterClick }: He
       // Direct integration with WhatsApp to send lead
       const text = `Namaste Sri Lakshmi All Caste Matrimony,\nI have submitted my profile registration:\n\n*Candidate Details:*\n- Full Name: ${fullName}\n- Mobile Number: ${mobileNumber}\n- Gender: ${gender}\n- Father's Mobile: ${fatherMobile}\n- Caste: ${caste}`;
       const encoded = encodeURIComponent(text);
-      const url = `https://wa.me/917386915677?text=${encoded}`;
+      const url = `https://wa.me/916302982417?text=${encoded}`;
       try {
         window.open(url, '_blank', 'noreferrer,noopener');
       } catch (err) {
